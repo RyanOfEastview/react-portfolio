@@ -22,7 +22,7 @@ GitHub repository: https://github.com/HiuSumJaimeYue/React-Portfolio
 If you are setting the project up in your local computer, type "npm i" in your terminal after downloading the files. To start the web application, go to your usual web browser and type "http://localhost:3000/". You will be able to see the React Portfolio web application.                
 
 ## Usage      
-In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click on the images and open up the links to the deployed application. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, the resume of Hiu Sum Jaime Yue will be posted.
+In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click on the images of projects and open up the links to the deployed application. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, the resume of Hiu Sum Jaime Yue will be posted.
 
 You can see  on the homepage.           
 ![Homepage Preview]( "Homepage Preview")        
@@ -53,7 +53,6 @@ GitHub: [GitHub](https://github.com/HiuSumJaimeYue)
 ## Learn more about React  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).        
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).           
-
 To learn React, check out the [React documentation](https://reactjs.org/).          
 
 ### Available Scripts to test in this project
