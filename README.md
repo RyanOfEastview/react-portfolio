@@ -1,12 +1,66 @@
-# Getting Started with Create React App
+# React Portfolio      
+## Description   
+This is a repository of a React Portfolio web application made by Hiu Sum Jaime Yue.            
+In this React Portfolio web application, there are 4 sections, including About Me, Portfolio, Contact and Resume. On the top of the web application, there is a navigator bar that you can click on and go to the section that you want to view.        
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The technologies I used in this project is React, Javascript and css.
 
-## Available Scripts
+Below are the links to the deployed application and this repository. Screenshots are shown in the Usage Section.
+
+Deployed application:           
+GitHub repository: https://github.com/HiuSumJaimeYue/React-Portfolio            
+
+## Table of Contents               
+-[Installation](#installation)          
+-[Usage](#usage)          
+-[License](#license)          
+-[Contributing](#contributing)                
+-[Questions](#questions)        
+-[Learn More About React](#learn-more-about-react)
+
+## Installation         
+If you are setting the project up in your local computer, type "npm i" in your terminal after downloading the files. To start the web application, go to your usual web browser and type "http://localhost:3000/". You will be able to see the React Portfolio web application.                
+
+## Usage      
+In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click on the images and open up the links to the deployed application. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, the resume of Hiu Sum Jaime Yue will be posted.
+
+You can see  on the homepage.           
+![Homepage Preview]( "Homepage Preview")        
+
+If you want to see any of my projects, click on the Portfolio button in the navigation bar and you will see my Portfolios.                      
+![Portfolio Preview 1]( "Portfolio Page Preview 1")                 
+
+After clicking Contact in the navigation bar, you will see the contact Page.                        
+![Contact Preview 1]( "contact Page Preview 1")                                          
+                                  
+If you want to see my resume, click on the Resume button in the navigation bar and you will see my resume and my list of proficiencies.                       
+![Resume Page Preview 1]( "Resume Page Preview 1")                                      
+
+
+## License         
+&copy; 2022 by Hiu Sum Jaime Yue               
+
+## Contributing         
+Hiu Sum Jaime Yue -- React Portfolio           
+
+## Questions         
+If you have any questions about the project, 
+the GitHub link and email address of the author are shown below.                   
+GitHub: [GitHub](https://github.com/HiuSumJaimeYue) 
+& Email: [hiusumjaimeyue@cmail.carleton.ca](mailto:hiusumjaimeyue@cmail.carleton.ca)
+
+
+## Learn more about React  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).        
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).           
+
+To learn React, check out the [React documentation](https://reactjs.org/).          
+
+### Available Scripts to test in this project
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +68,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +83,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -38,33 +92,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
