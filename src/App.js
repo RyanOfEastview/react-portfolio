@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import ContactForm from './components/Contact';
 
 function App() {
   const [categories] = useState([
@@ -27,15 +28,15 @@ function App() {
       ></Nav>
       <main>
         <div>
-          <About></About>
-          {/* {!contactSelected ? (
+          {/* <About></About> */}
+          {currentCategory.name === "About Me" ? (
             <>
-              <Gallery currentCategory={currentCategory}></Gallery> */}
-
-          {/* </>
+              {/* <Gallery currentCategory={currentCategory}></Gallery> */}
+              <About></About>
+          </>
           ) : (
             <ContactForm></ContactForm>
-          )} */}
+          )}
         </div>
       </main>
       <Footer></Footer>

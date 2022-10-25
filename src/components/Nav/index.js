@@ -12,10 +12,11 @@ function Nav(props) {
 
     return (
         <header className="px-1">
-            <h1>
-                <a data-testid="link" href="/" >
-                    Hiu Sum Jaime Yue
-                </a>
+            <h1 onClick={() => {
+                setCurrentCategory(categories[0]);
+                // setContactSelected(false);
+            }}>
+                Hiu Sum Jaime Yue
             </h1>
             <nav>
                 <ul className="">

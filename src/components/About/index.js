@@ -14,6 +14,10 @@ function About() {
                     Other than computer architecture and software, I am also interested in Web Development. 
                     My future goal is to learn machine learning. 
                 </p>
+
+                <p>
+                    I am currently looking for a job that starts in May 2023 or later.
+                </p>
             </div>
         </section>
     )
