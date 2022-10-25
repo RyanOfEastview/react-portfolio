@@ -11,7 +11,7 @@ main {
   --secondary: #F3A847;
   --tertiary: #B12704;
   --white: #ffffff;
-  --dark: #000000;
+  --black: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -39,11 +39,7 @@ body {
   letter-spacing: .1em;
   color: var(--white);
   font-family: var(--font-family);
-  background: hsla(213, 62%, 45%, 1);
-  background: linear-gradient(90deg, hsla(213, 62%, 45%, 1) 0%, hsla(203, 48%, 54%, 1) 50%, hsla(192, 8%, 76%, 1) 100%);
-  background: -moz-linear-gradient(90deg, hsla(213, 62%, 45%, 1) 0%, hsla(203, 48%, 54%, 1) 50%, hsla(192, 8%, 76%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(213, 62%, 45%, 1) 0%, hsla(203, 48%, 54%, 1) 50%, hsla(192, 8%, 76%, 1) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#2C6CBC", endColorstr="#5298C3", GradientType=1);
 }
 
 h1,
@@ -98,7 +94,7 @@ a:hover {
 }
 
 header {
-  background-color: var(--primary);
+  background: -webkit-linear-gradient(90deg, hsla(255, 48%, 26%, 1) 0%, hsla(250, 26%, 44%, 1) 13%, hsla(266, 32%, 64%, 1) 50%, hsla(250, 26%, 44%, 1) 87%, hsla(255, 48%, 26%, 1) 100%);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -106,7 +102,7 @@ header {
   position: -webkit-sticky;
   top: 0;
   padding: 5px;
-  color: #ffffff;
+  color: var(--white);
   z-index: 999;
 }
 
@@ -118,11 +114,15 @@ header nav ul {
   list-style: none;
 }
 
-header nav ul li:hover {
+header h1:hover{
+  padding-bottom: 15px;
+}
+
+header nav ul li:hover{
   background: var(--white);
-  color: var(--dark);
+  color: var(--black);
   border-radius: 5px;
-  padding: 1px;
+  padding: 4px;
 }
 
 header a {
@@ -165,7 +165,7 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--black);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
@@ -321,7 +321,7 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--black);
 }
 
 #about-pic {
