@@ -37,7 +37,18 @@ function ContactForm() {
 
     return (
         <section>
-            <h1 data-testid="h1tag">Contact me</h1>
+            <h1>Contact me</h1>
+            <div>
+                <p>Email:
+                    <a href="mailto:hiusumjaimeyue@cmail.carleton.ca">
+                        <span>hiusumjaimeyue@cmail.carleton.ca</span>
+                    </a><br></br>
+                    Phone-number: +1 4319900214
+                </p>
+            </div>
+            <p>
+                If you have any questions, feel free to leave a message below.
+            </p>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="contact-name">
                     <label htmlFor="name">Name:</label>
@@ -58,7 +69,7 @@ function ContactForm() {
                 )}
                 <button data-testid="button" type="submit">Submit</button>
             </form>
-        </section>
+        </section >
     );
 }
 
