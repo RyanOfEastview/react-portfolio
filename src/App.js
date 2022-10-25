@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           )} */}
         </div>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
