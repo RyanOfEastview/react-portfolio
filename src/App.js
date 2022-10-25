@@ -4,6 +4,8 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([
@@ -16,27 +18,33 @@ function App() {
     { name: 'Resume', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
   ]);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  // const [contactSelected, setContactSelected] = useState(false);
+
+  function renderSwitch(param) {
+    console.log(param);
+    switch (param) {
+      case "About Me":
+        return <About></About>;
+      case "Portfolios":
+        return <Portfolio></Portfolio>;
+      case "Contact":
+        return <ContactForm></ContactForm>;
+      case "Resume":
+        return <Resume></Resume>;
+      default:
+        return <About></About>;
+    }
+  }
+
   return (
     <div>
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        // contactSelected={contactSelected}
-        // setContactSelected={setContactSelected}
       ></Nav>
       <main>
         <div>
-          {/* <About></About> */}
-          {currentCategory.name === "About Me" ? (
-            <>
-              {/* <Gallery currentCategory={currentCategory}></Gallery> */}
-              <About></About>
-          </>
-          ) : (
-            <ContactForm></ContactForm>
-          )}
+          {renderSwitch(currentCategory.name)}
         </div>
       </main>
       <Footer></Footer>

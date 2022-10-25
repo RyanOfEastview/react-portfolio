@@ -5,16 +5,13 @@ function Nav(props) {
     const {
         categories = [],
         setCurrentCategory,
-        currentCategory,
-        contactSelected,
-        setContactSelected
+        currentCategory
     } = props;
 
     return (
         <header className="px-1">
             <h1 onClick={() => {
                 setCurrentCategory(categories[0]);
-                // setContactSelected(false);
             }}>
                 Hiu Sum Jaime Yue
             </h1>
@@ -26,7 +23,6 @@ function Nav(props) {
                             <span
                                 onClick={() => {
                                     setCurrentCategory(category);
-                                    setContactSelected(false);
                                 }}
                             >
                                 {capitalizeFirstLetter(category.name)}

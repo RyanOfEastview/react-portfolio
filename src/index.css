@@ -89,7 +89,8 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+a:hover,
+header h1:hover {
   text-decoration: underline;
 }
 
@@ -114,11 +115,11 @@ header nav ul {
   list-style: none;
 }
 
-header h1:hover{
+header h1:hover {
   padding-bottom: 15px;
 }
 
-header nav ul li:hover{
+header nav ul li:hover {
   background: var(--white);
   color: var(--black);
   border-radius: 5px;
