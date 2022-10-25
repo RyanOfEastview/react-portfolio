@@ -41,9 +41,12 @@ function ContactForm() {
             <div>
                 <p>Email:
                     <a href="mailto:hiusumjaimeyue@cmail.carleton.ca">
-                        <span>hiusumjaimeyue@cmail.carleton.ca</span>
+                        <span> hiusumjaimeyue@cmail.carleton.ca</span>
                     </a><br></br>
-                    Phone-number: +1 4319900214
+                    Phone-number: +1 (431) 990-0214
+                </p>
+                <p>
+                    You can also view my GitHub, LinkedIn and Facebook at the bottom of this page. 
                 </p>
             </div>
             <p>
