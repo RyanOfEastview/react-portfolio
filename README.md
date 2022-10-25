@@ -19,18 +19,18 @@ GitHub repository: https://github.com/HiuSumJaimeYue/React-Portfolio
 -[Learn More About React](#learn-more-about-react)
 
 ## Installation         
-If you are setting the project up in your local computer, type "npm i" in your terminal after downloading the files. To start the web application, go to your usual web browser and type "http://localhost:3000/". You will be able to see the React Portfolio web application.                
+If you are setting the project up in your local computer, type `npm i` in your terminal after downloading the files. To start the web application, type `npm start`. You will be able to see the React Portfolio web application.                
 
 ## Usage      
 In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click on the images of projects and open up the links to the deployed application. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, the resume of Hiu Sum Jaime Yue will be posted.
 
-You can see  on the homepage.           
+You can see my introduction on the homepage(About Me section).           
 ![Homepage Preview]( "Homepage Preview")        
 
-If you want to see any of my projects, click on the Portfolio button in the navigation bar and you will see my Portfolios.                      
+If you want to see any of my projects, click on the Portfolio button in the navigation bar and you will see my projects.                      
 ![Portfolio Preview 1]( "Portfolio Page Preview 1")                 
 
-After clicking Contact in the navigation bar, you will see the contact Page.                        
+After clicking Contact in the navigation bar, you will see the contact Page and a contact form with my contact information.                        
 ![Contact Preview 1]( "contact Page Preview 1")                                          
                                   
 If you want to see my resume, click on the Resume button in the navigation bar and you will see my resume and my list of proficiencies.                       
