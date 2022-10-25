@@ -183,7 +183,7 @@ input:focus {
 .contact-email{
   padding-bottom: 10px;
 }
-li {
+header li {
   list-style: none;
 }
 
@@ -329,6 +329,10 @@ a {
 
 .navActive {
   color: var(--black);
+}
+
+.skills-list{
+  list-style-type: circle;
 }
 
 #about-pic {

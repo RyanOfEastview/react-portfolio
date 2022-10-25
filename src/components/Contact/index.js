@@ -50,7 +50,7 @@ function ContactForm() {
                 </p>
             </div>
             <p>
-                If you have any questions, feel free to leave a message below.
+                If you have any questions, feel free to leave a message below. I will contact you as soon as possible when I receive the message.
             </p>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="contact-name">
