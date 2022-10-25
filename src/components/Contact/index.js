@@ -34,13 +34,13 @@ function ContactForm() {
 
     return (
         <section>
-            <h1 data-testid="h1tag">Contact me</h1>
+            <h1>Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div className="contact-name">
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onChange={handleChange} name="name" />
                 </div>
-                <div>
+                <div className="contact-email">
                     <label htmlFor="email">Email address:</label>
                     <input type="email" defaultValue={email} onChange={handleChange} name="email" />
                 </div>

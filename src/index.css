@@ -177,6 +177,12 @@ input:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
+.contact-name{
+    padding-bottom: 10px;
+}
+.contact-email{
+  padding-bottom: 10px;
+}
 li {
   list-style: none;
 }
@@ -368,5 +374,13 @@ footer {
 
   header nav ul li span {
     font-size: 18px;
+  }
+}
+
+/* Media query for tablet and smaller */
+@media screen and (max-width: 768px) {
+  textarea{
+    width: 205px;
+    height: 100px;
   }
 }
