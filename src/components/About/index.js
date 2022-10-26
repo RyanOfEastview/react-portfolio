@@ -12,7 +12,7 @@ function About() {
                     My name is Hiu Sum Jaime Yue. I am a fourth-year Computer Systems
                     Engineering student in Carleton University that will graduate in June 2023.
                     Other than computer architecture and software, I am also interested in Web Development. 
-                    My future goal is to learn machine learning. 
+                    My future goal is to learn machine learning and AngularJS. 
                 </p>
 
                 <p>

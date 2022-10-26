@@ -46,7 +46,7 @@ function ContactForm() {
                     Phone-number: +1 (431) 990-0214
                 </p>
                 <p>
-                    You can also view my GitHub, LinkedIn and Facebook at the bottom of this page. 
+                    You can also view my GitHub, LinkedIn and Facebook at the bottom of this page.
                 </p>
             </div>
             <p>

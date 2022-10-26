@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+//This Nav component not only include the navigation but also starts with the Header component.
+import React from "react";
 
 function Nav(props) {
     const {

@@ -14,7 +14,7 @@ function Resume() {
             <h1>Resume</h1>
             <div className="my-2">
                 <p>
-                    Here is the link of my
+                    Here is the link to download my   
                     <a href={require("../../assets/HiuSumJaime_Yue_Resume.pdf")} download="HiuSumJaime_Yue_Resume.pdf">
                         Resume</a>.
                 </p>
