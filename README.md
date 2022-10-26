@@ -3,7 +3,7 @@
 This is a repository of a React Portfolio web application made by Hiu Sum Jaime Yue.            
 In this React Portfolio web application, there are 4 sections, including About Me, Portfolio, Contact and Resume. On the top of the web application, there is a navigator bar that you can click on and go to the section that you want to view.        
 
-The technologies I used in this project is React, Javascript and css.
+The technologies I used in this project is React, Javascript and CSS.
 
 Below are the links to the deployed application and this repository. Screenshots are shown in the Usage Section.
 
@@ -22,7 +22,7 @@ GitHub repository: https://github.com/HiuSumJaimeYue/React-Portfolio
 If you are setting the project up in your local computer, type `npm i` in your terminal after downloading the files. To start the web application, type `npm start`. You will be able to see the React Portfolio web application.                
 
 ## Usage      
-In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click on the images of projects and open up the links to the deployed application. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, the resume of Hiu Sum Jaime Yue will be posted.
+In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click see the images of projects and open up the links to the deployed application or GitHub repository. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, you can find the resume of Hiu Sum Jaime Yue by downloading the resume and her proficiency list.
 
 You can see my introduction on the homepage(About Me section).           
 ![Homepage Preview]( "Homepage Preview")        

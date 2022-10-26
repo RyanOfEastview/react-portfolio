@@ -29,13 +29,13 @@ function App() {
 
   return (
     <div>
-      <Header>
+      {/* <Header> */}
         <Nav>
           categories={categories}
           setCurrentCategory={setCurrentCategory}
           currentCategory={currentCategory}
         </Nav>
-      </Header>
+      {/* </Header> */}
       <main>
         <div>
           {renderSwitch(currentCategory)}
