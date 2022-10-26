@@ -9,29 +9,22 @@ function Nav(props) {
     } = props;
 
     return (
-        <header className="px-1">
-            <h1 onClick={() => {
-                setCurrentCategory(categories[0]);
-            }}>
-                Hiu Sum Jaime Yue
-            </h1>
-            <nav>
-                <ul className="">
-                    {categories.map((category) => (
-                        <li className={`mx-1 ${currentCategory === category && 'navActive'}`} key={category}
+        <nav>
+            <ul className="">
+                {categories.map((category) => (
+                    <li className={`mx-1 ${currentCategory === category && 'navActive'}`} key={category}
+                    >
+                        <span
+                            onClick={() => {
+                                setCurrentCategory(category);
+                            }}
                         >
-                            <span
-                                onClick={() => {
-                                    setCurrentCategory(category);
-                                }}
-                            >
-                                {category}
-                            </span>
-                        </li>
-                    ))}
-                </ul>
-            </nav>
-        </header >
+                            {category}
+                        </span>
+                    </li>
+                ))}
+            </ul>
+        </nav>
     );
 }
 

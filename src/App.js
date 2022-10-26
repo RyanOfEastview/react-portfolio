@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
+import Header from './components/Header';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
@@ -28,11 +28,11 @@ function App() {
 
   return (
     <div>
-      <Nav
+      <Header
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-      ></Nav>
+      ></Header>
       <main>
         <div>
           {renderSwitch(currentCategory)}
