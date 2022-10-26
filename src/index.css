@@ -79,7 +79,7 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-top: 0;
 }
 
@@ -177,12 +177,14 @@ input:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
-.contact-name{
-    padding-bottom: 10px;
-}
-.contact-email{
+.contact-name {
   padding-bottom: 10px;
 }
+
+.contact-email {
+  padding-bottom: 10px;
+}
+
 header li {
   list-style: none;
 }
@@ -279,30 +281,8 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-  background: rgba(0, 0, 0, .65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
+.img-thumbnail:hover {
+  opacity: 0.5;
 }
 
 button {
@@ -331,7 +311,7 @@ a {
   color: var(--black);
 }
 
-.skills-list{
+.skills-list {
   list-style-type: circle;
 }
 
@@ -383,7 +363,7 @@ footer {
 
 /* Media query for tablet and smaller */
 @media screen and (max-width: 768px) {
-  textarea{
+  textarea {
     width: 205px;
     height: 100px;
   }
