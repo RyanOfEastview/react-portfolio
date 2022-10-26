@@ -17,14 +17,14 @@ function Nav(props) {
             <nav>
                 <ul className="">
                     {categories.map((category) => (
-                        <li className={`mx-1 ${currentCategory.name === category.name && 'navActive'}`} key={category.name}
+                        <li className={`mx-1 ${currentCategory === category && 'navActive'}`} key={category}
                         >
                             <span
                                 onClick={() => {
                                     setCurrentCategory(category);
                                 }}
                             >
-                                {category.name}
+                                {category}
                             </span>
                         </li>
                     ))}

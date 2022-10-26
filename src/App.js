@@ -8,15 +8,7 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'About Me',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    { name: 'Portfolios', description: 'Portraits of people in my life' },
-    { name: 'Contact', description: 'Delicious delicacies' },
-    { name: 'Resume', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  ]);
+  const [categories] = useState(['About Me', 'Portfolios', 'Contact', 'Resume']);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   function renderSwitch(category) {
@@ -43,7 +35,7 @@ function App() {
       ></Nav>
       <main>
         <div>
-          {renderSwitch(currentCategory.name)}
+          {renderSwitch(currentCategory)}
         </div>
       </main>
       <Footer></Footer>
