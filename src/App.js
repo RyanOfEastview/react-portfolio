@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
@@ -28,11 +29,13 @@ function App() {
 
   return (
     <div>
-      <Header
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-      ></Header>
+      <Header>
+        <Nav>
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+        </Nav>
+      </Header>
       <main>
         <div>
           {renderSwitch(currentCategory)}
