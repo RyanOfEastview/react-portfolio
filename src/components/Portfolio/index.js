@@ -16,7 +16,7 @@ function Portfolio() {
     return (
         <div className="my-5" >
             <h1>Portfolio</h1>
-            <h3>(Hover to see the application and the GitHub repository)</h3>
+            <h3>(Click on the project title to see the application. And next to the title, that is the Github repository of the project)</h3>
 
             <section>
                 <div>
@@ -33,6 +33,7 @@ function Portfolio() {
                                     <a href="https://github.com/HiuSumJaimeYue" target="_blank" rel="noopener noreferrer">
                                         <FontAwesomeIcon icon={faGithub} size="2x" className="project-icon" />
                                     </a>
+
                                 </div>
 
                             </div>
