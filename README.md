@@ -25,16 +25,16 @@ If you are setting the project up in your local computer, type `npm i` in your t
 In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click see the images of projects and open up the links to the deployed application or GitHub repository. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, you can find the resume of Hiu Sum Jaime Yue by downloading the resume and her proficiency list.
 
 You can see my introduction on the homepage(About Me section).           
-![Homepage Preview]( "Homepage Preview")        
+![Homepage Preview](https://github.com/HiuSumJaimeYue/React-Portfolio/blob/main/screenshots/AboutMePreview.jpg "Homepage Preview")        
 
 If you want to see any of my projects, click on the Portfolio button in the navigation bar and you will see my projects.                      
-![Portfolio Preview 1]( "Portfolio Page Preview 1")                 
+![Portfolio Preview 1](https://github.com/HiuSumJaimeYue/React-Portfolio/blob/main/screenshots/PortfolioPreview.jpg "Portfolio Page Preview 1")                 
 
 After clicking Contact in the navigation bar, you will see the contact Page and a contact form with my contact information.                        
-![Contact Preview 1]( "contact Page Preview 1")                                          
+![Contact Preview 1](https://github.com/HiuSumJaimeYue/React-Portfolio/blob/main/screenshots/ContactPreview.jpg "contact Page Preview 1")                                          
                                   
 If you want to see my resume, click on the Resume button in the navigation bar and you will see my resume and my list of proficiencies.                       
-![Resume Page Preview 1]( "Resume Page Preview 1")                                      
+![Resume Page Preview 1](https://github.com/HiuSumJaimeYue/React-Portfolio/blob/main/screenshots/ResumePreview.jpg "Resume Page Preview 1")                                      
 
 
 ## License         
