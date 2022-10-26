@@ -275,15 +275,15 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 300px;
+  width: 500px;
+  height: 280px;
   margin-bottom: 50px;
   cursor: pointer;
 }
 
-.img-thumbnail:hover {
-  opacity: 0.5;
-}
+/* .img-thumbnail:hover {
+  filter: blur(8px);
+} */
 
 button {
   background: var(--primary);
@@ -315,6 +315,31 @@ a {
   list-style-type: circle;
 }
 
+.project-link {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  border-radius: 0.3rem;
+  padding: 1%;
+}
+
+.project-icon {
+  margin-left: 20px;
+}
+
+.project-icon:hover {
+  color: #676767;
+}
+
 #about-pic {
   max-height: 200px;
   max-width: 150px;
@@ -331,7 +356,7 @@ footer {
 
 .footer-icon {
   margin-left: 20px;
-  color: white;
+  color: var(--white);
 }
 
 .footer-icon:hover {
