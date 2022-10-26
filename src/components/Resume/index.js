@@ -11,17 +11,18 @@ function Resume() {
 
     return (
         <div className="my-5" >
-            <h1>Resume Page Here</h1>
+            <h1>Resume</h1>
             <div className="my-2">
                 <p>
-                    Here is the link of my Resume.
+                    Here is the link of my
+                    <a href={require("../../assets/HiuSumJaime_Yue_Resume.pdf")} download="HiuSumJaime_Yue_Resume.pdf">
+                        Resume</a>.
                 </p>
                 <br></br>
                 <h2>My proficiencies:</h2>
                 <h3>Front-end</h3>
                 <ul className="skills-list">
                     {webdevFrontEndProficiency.map((skill) => (
-
                         <li className="mx-1">
                             {skill}
                         </li>

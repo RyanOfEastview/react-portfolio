@@ -20,7 +20,6 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   function renderSwitch(category) {
-    // console.log(param);
     switch (category) {
       case "About Me":
         return <About></About>;
