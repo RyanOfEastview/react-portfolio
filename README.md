@@ -23,7 +23,7 @@ My other GitHub repository that successfully generated the deployed application:
 If you are setting the project up in your local computer, type `npm i` in your terminal after downloading the files. To start the web application, type `npm start`. You will be able to see the React Portfolio web application.                
 
 ## Usage      
-In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click see the images of projects and open up the links to the deployed application or GitHub repository. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, you can find the resume of Hiu Sum Jaime Yue by downloading the resume and her proficiency list.
+In the About Me section, it has a short introduction of the author of the repository, Hiu Sum Jaime Yue. In the Portfolio section, you can click see the images of projects and open up the links to the deployed application or GitHub repository. In the Contact section, you can find the contact information of Hiu Sum Jaime Yue and a way to leave message to the author. Last but not least, the Resume section, you can find the resume of Hiu Sum Jaime Yue by downloading the resume and her proficiency list. Below every section, you can see a footer that includes my profiles to GitHub, LinkedIn and Facebook.          
 
 You can see my introduction on the homepage(About Me section).           
 ![Homepage Preview](https://github.com/HiuSumJaimeYue/React-Portfolio/blob/main/screenshots/AboutMePreview.jpg "Homepage Preview")        
