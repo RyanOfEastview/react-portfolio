@@ -23,6 +23,7 @@ function Project() {
       imageName: "VacationMemoriesPreview",
     },
   ];
+
   return (
     <section>
       <div>
@@ -30,7 +31,7 @@ function Project() {
           {projects.map((project, i) => (
             <div className="project-link">
               <img
-                src={require(`../../assets/images/${project.imageName}.jpg`)}
+                src={require(`../../assets/images/${projects.imageName}.jpg`)}
                 alt={project.name}
                 className="img-thumbnail mx-1"
               ></img>
