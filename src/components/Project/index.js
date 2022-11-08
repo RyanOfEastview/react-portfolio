@@ -30,11 +30,11 @@ function Project() {
         <div className="flex-row">
           {projects.map((project, i) => (
             <div className="project-link">
-              <img
+              {/* <img
                 src={require(`../../assets/images/${projects.imageName}.jpg`)}
                 alt={project.name}
                 className="img-thumbnail mx-1"
-              ></img>
+              ></img> */}
 
               <div className="centered-text">
                 <a

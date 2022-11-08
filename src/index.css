@@ -16,9 +16,9 @@ main {
   --spacing-five: calc(2.5rem);
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 html,
 body {
@@ -89,11 +89,17 @@ a:hover {
 }
 
 header {
+  margin: 7px 0;
   background: #6b0f1a;
 }
 
 header a {
   color: #6b0f1a;
+}
+
+header h1 {
+  padding: 25px;
+  margin: 0 10px;
 }
 
 button {
@@ -147,8 +153,13 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
+nav {
+  float: right;
+  background-color: #6b0f1a;
+}
+
+nav ul li {
+  display: inline;
 }
 
 nav li {
